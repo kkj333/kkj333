@@ -41,15 +41,6 @@ https://github.com/google/adk-python/issues/5539
 
 https://github.com/google/adk-python/pull/5640
 
----
-
-## 🚀 Projects
-
-### 夢占いAI
-Google ADKを活用した夢占いWebアプリ。FastAPI + Next.js + Discord Botで構成。GCP（Cloud Run / Compute Engine）にTerraform + GitHub ActionsでCI/CDを構築。
-
----
-
 ## 📝 Blog
 
 [![Zenn](https://img.shields.io/badge/Zenn-3EA8FF?style=flat&logo=zenn&logoColor=white)](https://zenn.dev/kkj)
