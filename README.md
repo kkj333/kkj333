@@ -38,7 +38,7 @@
 
 https://github.com/google/adk-python/issues/5539
 
-**PR #5640** — `list_sessions()`が常に`last_update_time`を0.0で返すバグを修正。タイムスタンプ変換ロジックを実装し、ユニットテストを追加。Google社員によるレビュー対応中。
+**PR #5640** — `list_sessions()`が常に`last_update_time`を0.0で返すバグを修正。タイムスタンプ変換ロジックを実装し、ユニットテストを追加。レビュー対応中。
 
 https://github.com/google/adk-python/pull/5640
 
