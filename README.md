@@ -41,6 +41,10 @@ https://github.com/google/adk-python/issues/5539
 
 https://github.com/google/adk-python/pull/5640
 
+**Issue #5799** — ADK 2.0 GAで顕在化した`FunctionTool`の`Union[Pydantic, Pydantic]`引数が実行時にdictのまま渡されるバグを再現・報告。関連PR #4664への整理コメントも実施。
+
+https://github.com/google/adk-python/issues/5799
+
 ## 📝 Blog
 
 [![Zenn](https://img.shields.io/badge/Zenn-3EA8FF?style=flat&logo=zenn&logoColor=white)](https://zenn.dev/kkj)
