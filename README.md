@@ -41,7 +41,11 @@ https://github.com/google/adk-python/issues/5539
 
 https://github.com/google/adk-python/pull/5640
 
-**Issue #5799** — ADK 2.0 GAで顕在化した`FunctionTool`の`Union[Pydantic, Pydantic]`引数が実行時にdictのまま渡されるバグを再現・報告。関連PR #4664への整理コメントも実施。
+**PR #5814** — `DatabaseSessionService.append_event`がasyncpg利用時に`MissingGreenlet`を起こす問題を修正。commit前にrevisionフィールドを読むよう変更し、regression testを追加。
+
+https://github.com/google/adk-python/pull/5814
+
+**Issue #5799** — ADK 2.0 GAで顕在化した`FunctionTool`の`Union[Pydantic, Pydantic]`引数が実行時にdictのまま渡されるバグを再現・報告。修正済み（Close #5799）。
 
 https://github.com/google/adk-python/issues/5799
 
