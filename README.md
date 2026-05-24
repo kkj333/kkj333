@@ -49,6 +49,7 @@ https://github.com/google/adk-python/pull/5814
 
 https://github.com/google/adk-python/issues/5799
 
-## 📝 Blog
+## 🔗 Links
 
 [![Zenn](https://img.shields.io/badge/Zenn-3EA8FF?style=flat&logo=zenn&logoColor=white)](https://zenn.dev/kkj)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/kkj333)
