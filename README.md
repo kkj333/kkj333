@@ -1,6 +1,6 @@
 # Hi, I'm kkj333 👋
 
-生成AI・LLMを活用したシステム開発を得意とするAIエンジニアです。
+AI engineer specializing in building systems with generative AI and LLMs.
 
 ---
 
@@ -11,9 +11,9 @@
 ![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 
-**得意な技術領域**
-- RAG / マルチエージェント / Text-To-SQL
-- プロンプトエンジニアリング / エージェントワークフロー
+**Core expertise**
+- RAG / multi-agent systems / Text-to-SQL
+- Prompt engineering / agent workflows
 - Google Agent Developer Kit (ADK)
 
 ### Infrastructure
@@ -33,19 +33,19 @@
 
 ### [google/adk-python](https://github.com/google/adk-python)
 
-**Issue #5539** — Firestoreセッションバックエンドで発生するHTTP 500エラーを発見・報告。最小再現コードを作成して起票し、他の開発者による修正のきっかけとなった。
+**Issue #5539** — Discovered and reported an HTTP 500 error in the Firestore session backend. Filed it with a minimal reproduction, which helped lead to a fix by other contributors.
 
 https://github.com/google/adk-python/issues/5539
 
-**PR #5640** — `list_sessions()`が常に`last_update_time`を0.0で返すバグを修正。タイムスタンプ変換ロジックを実装し、ユニットテストを追加。
+**PR #5640** — Fixed a bug where `list_sessions()` always returned `last_update_time` as `0.0`. Implemented timestamp conversion logic and added unit tests.
 
 https://github.com/google/adk-python/pull/5640
 
-**PR #5814** — `DatabaseSessionService.append_event`がasyncpg利用時に`MissingGreenlet`を起こす問題を修正。commit前にrevisionフィールドを読むよう変更し、regression testを追加。
+**PR #5814** — Fixed `MissingGreenlet` when `DatabaseSessionService.append_event` runs with asyncpg. Read the revision field before commit and added a regression test.
 
 https://github.com/google/adk-python/pull/5814
 
-**Issue #5799** — ADK 2.0 GAで顕在化した`FunctionTool`の`Union[Pydantic, Pydantic]`引数が実行時にdictのまま渡されるバグを再現・報告。修正済み（Close #5799）。
+**Issue #5799** — Reproduced and reported a bug where `FunctionTool` arguments typed as `Union[Pydantic, Pydantic]` were passed as plain dicts at runtime in ADK 2.0 GA. Fixed (Close #5799).
 
 https://github.com/google/adk-python/issues/5799
 
