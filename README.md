@@ -45,6 +45,10 @@ https://github.com/google/adk-python/pull/5640
 
 https://github.com/google/adk-python/pull/5814
 
+**PR #5854** — Fixed a bug where `inline_data.display_name` was dropped when loading binary artifacts from `FileArtifactService` and `GcsArtifactService`. Persisted display names in file/GCS metadata and added regression tests. Integrated into `main`.
+
+https://github.com/google/adk-python/pull/5854
+
 **Issue #5799** — Reproduced and reported a bug where `FunctionTool` arguments typed as `Union[Pydantic, Pydantic]` were passed as plain dicts at runtime in ADK 2.0 GA. Fixed (Close #5799).
 
 https://github.com/google/adk-python/issues/5799
