@@ -33,7 +33,7 @@ AI engineer specializing in building systems with generative AI and LLMs.
 
 ### [google/adk-python](https://github.com/google/adk-python)
 
-**Issue #5539** — Discovered and reported an HTTP 500 error in the Firestore session backend. Filed it with a minimal reproduction, which helped lead to a fix by other contributors.
+**Issue #5539** — Discovered and reported an HTTP 500 error when ADK Developer UI creates sessions with Firestore-reserved `__session_metadata__` state keys. Filed a minimal reproduction, verified the fix in PR #5549, and contributed test guidance. Fixed (Close #5539).
 
 https://github.com/google/adk-python/issues/5539
 
