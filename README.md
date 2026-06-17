@@ -41,7 +41,7 @@ https://github.com/google/adk-python/issues/5539
 
 https://github.com/google/adk-python/pull/5640
 
-**PR #5814** — Fixed `MissingGreenlet` when `DatabaseSessionService.append_event` runs with asyncpg. Read the revision field before commit and added a regression test.
+**PR #5814** — Fixed `MissingGreenlet` when `DatabaseSessionService.append_event` runs with asyncpg. Read the revision field before commit and added a regression test. Integrated into `main`.
 
 https://github.com/google/adk-python/pull/5814
 
