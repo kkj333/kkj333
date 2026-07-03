@@ -37,15 +37,15 @@ AI engineer specializing in building systems with generative AI and LLMs.
 
 https://github.com/google/adk-python/issues/5539
 
-**PR #5640** — Fixed a bug where `list_sessions()` always returned `last_update_time` as `0.0`. Implemented timestamp conversion logic and added unit tests.
+**PR #5640** — Fixed a bug where `list_sessions()` always returned `last_update_time` as `0.0`. Implemented timestamp conversion logic and added unit tests. Integrated into `main` via Google's Copybara/Piper workflow.
 
 https://github.com/google/adk-python/pull/5640
 
-**PR #5814** — Fixed `MissingGreenlet` when `DatabaseSessionService.append_event` runs with asyncpg. Read the revision field before commit and added a regression test. Integrated into `main`.
+**PR #5814** — Fixed `MissingGreenlet` when `DatabaseSessionService.append_event` runs with asyncpg. Read the revision field before commit and added a regression test. Integrated into `main` via Google's Copybara/Piper workflow.
 
 https://github.com/google/adk-python/pull/5814
 
-**PR #5854** — Fixed a bug where `inline_data.display_name` was dropped when loading binary artifacts from `FileArtifactService` and `GcsArtifactService`. Persisted display names in file/GCS metadata and added regression tests. Integrated into `main`.
+**PR #5854** — Fixed a bug where `inline_data.display_name` was dropped when loading binary artifacts from `FileArtifactService` and `GcsArtifactService`. Persisted display names in file/GCS metadata and added regression tests. Integrated into `main` via Google's Copybara/Piper workflow.
 
 https://github.com/google/adk-python/pull/5854
 
